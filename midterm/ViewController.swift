@@ -119,18 +119,23 @@ class ViewController: UIViewController {
         quantity3.text = "0"
         quantity4.text = "0"
         quantity5.text = "0"
-        listTitle.text = "My Shopping List"
-        list1Item.text = "New List Item..."
-        list2Item.text = "New List Item..."
-        list3Item.text = "New List Item..."
-        list4Item.text = "New List Item..."
-        list5Item.text = "New List Item..."
+        listTitle.text = ""
+        list1Item.text = ""
+        list2Item.text = ""
+        list3Item.text = ""
+        list4Item.text = ""
+        list5Item.text = ""
     }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        listTitle.placeholder = "My Shopping List"
+        list1Item.placeholder = "New List Item..."
+        list2Item.placeholder = "New List Item..."
+        list3Item.placeholder = "New List Item..."
+        list4Item.placeholder = "New List Item..."
+        list5Item.placeholder = "New List Item..."
     }
 
     override func didReceiveMemoryWarning() {
