@@ -15,6 +15,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var quantity3: UILabel!
     @IBOutlet weak var quantity4: UILabel!
     @IBOutlet weak var quantity5: UILabel!
+    @IBOutlet weak var listTitle: UITextField!
+    @IBOutlet weak var list1Item: UITextField!
+    @IBOutlet weak var list2Item: UITextField!
+    @IBOutlet weak var list3Item: UITextField!
+    @IBOutlet weak var list4Item: UITextField!
+    @IBOutlet weak var list5Item: UITextField!
+    
+    
+    
+    
     
     var item1: Int = 0
     var item2: Int = 0
@@ -109,6 +119,12 @@ class ViewController: UIViewController {
         quantity3.text = "0"
         quantity4.text = "0"
         quantity5.text = "0"
+        listTitle.text = "My Shopping List"
+        list1Item.text = "New List Item..."
+        list2Item.text = "New List Item..."
+        list3Item.text = "New List Item..."
+        list4Item.text = "New List Item..."
+        list5Item.text = "New List Item..."
     }
     
     
