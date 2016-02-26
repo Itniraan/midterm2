@@ -37,6 +37,21 @@ class ViewController: UIViewController {
         quantity1.text = String(item1)
     }
     
+    @IBAction func quantity2Minus(sender: AnyObject) {
+        if Int(quantity2.text!) > 0 {
+            item2--
+            quantity2.text = String(item2)
+        }
+        else {
+            
+        }
+    }
+    
+    @IBAction func quantity2Plus(sender: AnyObject) {
+        item2++
+        quantity2.text = String(item2)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
