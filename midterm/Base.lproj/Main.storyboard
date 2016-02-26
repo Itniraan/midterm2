@@ -221,15 +221,6 @@
                                     <action selector="quantity5Minus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XyE-Od-rd9"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tDp-0T-tU1">
-                                <rect key="frame" x="39" y="103" width="561" height="36"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="36" id="jpa-HC-y2f"/>
-                                    <constraint firstAttribute="width" constant="561" id="mWp-Ys-W3C"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ceU-Yg-O30">
                                 <rect key="frame" x="462" y="424" width="42" height="21"/>
                                 <constraints>
@@ -326,6 +317,15 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="2pp-jU-ZPL"/>
                                     <constraint firstAttribute="width" constant="203" id="jD3-Kb-W9B"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tDp-0T-tU1">
+                                <rect key="frame" x="39" y="103" width="561" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="jpa-HC-y2f"/>
+                                    <constraint firstAttribute="width" constant="561" id="mWp-Ys-W3C"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>

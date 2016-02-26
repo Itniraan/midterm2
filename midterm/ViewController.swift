@@ -2,6 +2,11 @@
 //  ViewController.swift
 //  midterm
 //
+//  File Name: midterm
+//  Author: Blake Murdock (200260568)
+//  Date: February 26, 2016
+//  Purpose: Shopping List
+//
 //  Created by student on 2016-02-26.
 //  Copyright © 2016 blake. All rights reserved.
 //
@@ -31,7 +36,7 @@ class ViewController: UIViewController {
     var item3: Int = 0
     var item4: Int = 0
     var item5: Int = 0
-    
+    // Add / Subtract Functions
     @IBAction func quantity1Minus(sender: AnyObject) {
         if Int(quantity1.text!) > 0 {
             item1--
@@ -108,6 +113,7 @@ class ViewController: UIViewController {
         quantity5.text = String(item5)
     }
     
+    // Cancel Button, this will clear everything
     @IBAction func cancelButton(sender: AnyObject) {
         item1 = 0
         item2 = 0
@@ -130,6 +136,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Add placeholders for textfields
         listTitle.placeholder = "My Shopping List"
         list1Item.placeholder = "New List Item..."
         list2Item.placeholder = "New List Item..."
