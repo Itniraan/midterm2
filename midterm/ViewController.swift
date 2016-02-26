@@ -98,6 +98,19 @@ class ViewController: UIViewController {
         quantity5.text = String(item5)
     }
     
+    @IBAction func cancelButton(sender: AnyObject) {
+        item1 = 0
+        item2 = 0
+        item3 = 0
+        item4 = 0
+        item5 = 0
+        quantity1.text = "0"
+        quantity2.text = "0"
+        quantity3.text = "0"
+        quantity4.text = "0"
+        quantity5.text = "0"
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
