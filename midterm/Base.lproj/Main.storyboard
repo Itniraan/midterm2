@@ -187,17 +187,6 @@
                                     <action selector="quantity2Minus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ghZ-dM-xlF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhm-fN-Knt">
-                                <rect key="frame" x="454" y="303" width="30" height="30"/>
-                                <color key="backgroundColor" red="0.89411764709999997" green="0.89411764709999997" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="KRG-Ek-Evm"/>
-                                    <constraint firstAttribute="width" constant="30" id="rx6-NL-mbG"/>
-                                </constraints>
-                                <state key="normal" title="&gt;">
-                                    <color key="titleColor" red="0.50588235290000005" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9E-Us-hyd">
                                 <rect key="frame" x="350" y="303" width="30" height="30"/>
                                 <color key="backgroundColor" red="0.89411764709999997" green="0.89411764709999997" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -208,6 +197,9 @@
                                 <state key="normal" title="&lt;">
                                     <color key="titleColor" red="0.50588235290000005" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="quantity3Minus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vp3-dv-5px"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyq-Fb-gsb">
                                 <rect key="frame" x="454" y="359" width="30" height="30"/>
@@ -307,6 +299,20 @@
                                 </state>
                                 <connections>
                                     <action selector="quantity2Plus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XGH-jI-oS4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhm-fN-Knt">
+                                <rect key="frame" x="454" y="303" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.89411764709999997" green="0.89411764709999997" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="KRG-Ek-Evm"/>
+                                    <constraint firstAttribute="width" constant="30" id="rx6-NL-mbG"/>
+                                </constraints>
+                                <state key="normal" title="&gt;">
+                                    <color key="titleColor" red="0.50588235290000005" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="quantity3Plus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FZR-oP-F6l"/>
                                 </connections>
                             </button>
                         </subviews>
