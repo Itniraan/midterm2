@@ -16,12 +16,26 @@ class ViewController: UIViewController {
     @IBOutlet weak var quantity4: UILabel!
     @IBOutlet weak var quantity5: UILabel!
     
-    
     var item1: Int = 0
     var item2: Int = 0
     var item3: Int = 0
     var item4: Int = 0
     var item5: Int = 0
+    
+    @IBAction func quantity1Minus(sender: AnyObject) {
+        if Int(quantity1.text!) > 0 {
+            item1--
+            quantity1.text = String(item1)
+        }
+        else {
+            
+        }
+    }
+    
+    @IBAction func quantity1Plus(sender: AnyObject) {
+        item1++
+        quantity1.text = String(item1)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
