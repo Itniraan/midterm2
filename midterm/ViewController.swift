@@ -10,6 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var quantity1: UILabel!
+    @IBOutlet weak var quantity2: UILabel!
+    @IBOutlet weak var quantity3: UILabel!
+    @IBOutlet weak var quantity4: UILabel!
+    @IBOutlet weak var quantity5: UILabel!
+    
+    
     var item1: Int = 0
     var item2: Int = 0
     var item3: Int = 0

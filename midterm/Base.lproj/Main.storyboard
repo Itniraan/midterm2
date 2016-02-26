@@ -123,16 +123,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ceU-Yg-O30">
-                                <rect key="frame" x="397" y="424" width="42" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="42" id="IWt-vN-z8i"/>
-                                    <constraint firstAttribute="height" constant="21" id="Wbi-km-8VE"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="New List Item..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uj6-Zh-C9d">
                                 <rect key="frame" x="57" y="247" width="203" height="30"/>
                                 <constraints>
@@ -297,6 +287,16 @@
                                     <color key="titleColor" red="0.50588235290000005" green="0.50588235290000005" blue="0.50588235290000005" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ceU-Yg-O30">
+                                <rect key="frame" x="397" y="424" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="42" id="IWt-vN-z8i"/>
+                                    <constraint firstAttribute="height" constant="21" id="Wbi-km-8VE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -362,6 +362,13 @@
                             <constraint firstItem="pQC-6J-bNh" firstAttribute="top" secondItem="g9E-Us-hyd" secondAttribute="bottom" constant="26" id="zsL-MK-iYr"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="quantity1" destination="aLM-n2-C9P" id="xtQ-8b-MJb"/>
+                        <outlet property="quantity2" destination="nsa-oF-tAX" id="h6N-yq-6lt"/>
+                        <outlet property="quantity3" destination="hPF-cL-TrB" id="MVM-4C-RhA"/>
+                        <outlet property="quantity4" destination="m1T-hb-AU3" id="9Cu-aN-eTe"/>
+                        <outlet property="quantity5" destination="ceU-Yg-O30" id="COm-E4-nzM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
